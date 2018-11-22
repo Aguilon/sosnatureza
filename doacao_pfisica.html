@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Doação - Pessoa Física</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/eventos.css">
+	</head>
+	<body  >
+		<!--Inicio Menu Superior -->
+        <nav>
+			<div class="menu">
+				<!--Inicio Menu Superior -->
+				<div class="mainHeader">
+					<div class="box960">
+						<!--Inicio Botão Doação-->
+						<button class='buttom_menu'>Doe agora!</button>
+						<!--Fim do Botão Doação-->
+			
+						<!--Logo-->
+						<a href="index.html"><img class='img_menu' src="..\site\images\img_logo.png" align="middle"></a>
+			
+						<!--Inicio Botão de Pesquisa-->
+						<button id='button'>Search</button>
+						<input class='input' type="text" />
+						<!--Fim Botão de Pesquisa-->
+					</div>
+				</div>
+				<!--FIM Menu Superior-->
+				<!--Inicio Menu Inferior(Principal)-->
+<!--        	    <nav id="menu">
+					<ul>
+						<li><a href="..\site\doacao_principal.html">Faça uma Doação</a></li>
+						<li><a href="..\site\objetivos.html">Objetivos</a></li>
+						<li><a href="..\site\amazonia.html">Floresta Amazônica</a></li>
+						<li><a href="..\site\atlantica.html">Mata Atlântica</a></li>
+						<li><a href="..\site\cerrado.html">Cerrado</a></li>
+						<li><a href="..\site\voluntario.html">Seja um voluntário</a></li>
+						<li><a href="..\site\projetos.html">Projetos</a></li>
+						<li><a href="..\site\eventos.html">Eventos</a></li>
+						<li><a href="..\site\acoes.html">Ações Sociais</a></li>
+					</ul>
+				</nav> -->
+				<!--Inicio Menu Inferior(Principal)-->
+				<ul id='tamanho_menu'>
+					<li><a href="..\site\doacao_principal.html">Faça uma Doação</a></li>
+					<li><a href="..\site\objetivos.html">Objetivos</a></li>
+					<li><a href="..\site\amazonia.html">Floresta Amazônica</a></li>
+					<li><a href="..\site\atlantica.html">Mata Atlântica</a></li>
+					<li><a href="..\site\cerrado.html">Cerrado</a></li>
+					<li><a href="..\site\voluntario.html">Seja um voluntário</a></li>
+					<li>
+						<a href="..\site\projetos.html">Projetos</a>
+						<ul>
+							<li><a href="..\site\eventos.html">Eventos</a></li>
+							<li><a href="..\site\acoes.html">Ações Sociais</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!--Fim do menu Inferior(Principal)-->
+			</div>
+		</nav>
+		<!--Fim do menu Inferior(Principal)-->
+		<!--Inicio corpo doação -->
+		<div class='bodyss'>
+			<div id="pessoa_fisica">
+				<h2>Doação Pessoa Física</h2>
+				<p>
+					Agora precisamos que você forneça apenas alguns dados básicos.<br/>
+					Esse preenchimento não levará mais que 5 minutos.
+				</p>
+                <form>
+                    Ptimeiro nome: 
+                    <input type="text" name="firstname">
+                    <br>
+                    Sobrenome:
+                    <input type="text" name="lastname">
+                    <br>
+                    CPF:
+                    <input type="text" name="cnpj">
+                    <br>
+                    Sexo:
+                    <input type="radio" name="sex" value="male"> Masculino
+                    <input type="radio" name="sex" value="female"> Feminino
+                    <br>
+                    E-mail:
+                    <input type="text" name="email">
+                    <br>
+                    Forma de pagamento:
+                    <select name='- - - -   '>
+                        <option value="volvo">Cartão de Crédito</option>
+                        <option value="saab">Cartão de débito</option>
+                    </select>
+                    <br>
+                    Valor:
+                    <input type='number' name='numero'>
+                    <br>
+                    Numero do Cartão:
+                    <input type="number" name='Numero'>
+                    <div class=preencher></div>
+                </form>
+                <button class='enviar2'>Enviar</button>
+                <br>
+                <br>
+                <p class='p_paypal'><b>---OU DOE PELO PAYPAL---</b></p>
+                <br>
+                <br>
+                <br>
+                <form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="YA9DXLLJU4FJ4" />
+                    <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+			</div>
+        </div>
+
+		<!-- Fim do corpo doação -->
+		<!-- Inicio footer -->
+		<footer class="footer">
+			<p>Powered by: Pablo Jacomine e Aguilon Souza</p>
+			<p>
+				Contact information: 
+				<a href="mailto:pablo.jacomie@hotmail.com">pablo.jacomine@hotmail.com</a>
+			</p>
+            <p>© Copyright - 2018 </p>
+		</footer>
+	</body>
+</html>
